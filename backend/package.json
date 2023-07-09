@@ -1,0 +1,29 @@
+{
+    "name": "quiz-app",
+    "version": "1.0.0",
+    "description": "RESTful API for a quiz app",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "mocha --exit"
+    },
+    "keywords": [
+      "quiz",
+      "api",
+      "restful",
+      "express",
+      "node",
+      "mongoose"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.1.2"
+    },
+    "devDependencies": {
+      "mocha": "^9.1.1",
+      "supertest": "^6.1.4"
+    }
+  }
+  
